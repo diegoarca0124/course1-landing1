@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container d-flex flex-column align-center">
+            <a href="" class="text-logo" id="nav-btn">
+                Explore
+            </a>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <a href="">
+                           
+                            <span class="text-link">
+                                Home
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                         
+                            <span class="text-link">
+                                Hotel
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                           
+                            <span class="text-link">
+                                Rooms
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                          
+                            <span class="text-link">
+                                Contact
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home d-flex align-center">
+        <video id="video-1" class="video-slide active" src="./assets/media/1.mp4" autoplay muted loop></video>
+        <video id="video-2" class="video-slide" src="./assets/media/2.mp4" autoplay muted loop></video>
+        <video id="video-3" class="video-slide" src="./assets/media/3.mp4" autoplay muted loop></video>
+        <video id="video-4" class="video-slide" src="./assets/media/4.mp4" autoplay muted loop></video>
+
+        <div class="content text-center d-flex flex-column justify-content-center" >
+            
+            <div class="item-slide mb-3">
+                <img src="./assets/media/travel.png" style="width: 250px;margin: auto;">
+            
+                <h1 class="text-white mt-2 font-rosario mb-1">
+                    <strong class="fw-700 text-1 font-rosario">Explore.</strong>
+                    <br>
+                    new horizons
+                </h1>
+
+                <p class="text-white px-4">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus deserunt iusto nam cum sint perferendis ipsa maiores, culpa facere. Temporibus eligendi atque perspiciatis rem fugit debitis magnam nisi. Voluptas, aspernatur?
+                </p>
+            </div>
+
+            <div class="nav-slides">
+                <button class="btn-slide" data-video="video-1">
+                </button>
+                <button class="btn-slide" data-video="video-2">
+                </button>
+                <button class="btn-slide" data-video="video-3">
+                </button>
+                <button class="btn-slide" data-video="video-4">
+                </button>
+            </div>
+        </div>
+    </section>
+   
+    <script src="./assets/js/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
